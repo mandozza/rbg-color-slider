@@ -9,17 +9,46 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //outlets
+    @IBOutlet weak var lblHeaderText: UILabel!
+    @IBOutlet weak var lblGreyScaleText: UILabel!
+    @IBOutlet weak var lblRedText: UILabel!
+    @IBOutlet weak var lblGreenText: UILabel!
+    @IBOutlet weak var lblBlueText: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    //Actions
+    
+    
+    @IBAction func sliderGreyScale(sender: AnyObject) {
+     
+        
+    }
+    
+    
+    
+    
+    @IBAction func handleSliders(sender: AnyObject) {
+        
+        
+        
+    }
+    
+    
+    @IBAction func buttonReset(sender: AnyObject) {
+        
+        
+        
     }
 
+    
 
 }
 
